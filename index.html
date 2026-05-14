@@ -514,7 +514,7 @@
 
         @keyframes loadEta {
             to {
-                width: 30%;
+                width: 75%;
             }
         }
 
@@ -867,7 +867,7 @@
             <!-- Status badge -->
             <div class="status-badge" role="status" aria-live="polite">
                 <span class="status-dot" aria-hidden="true"></span>
-                Maintenance in Progress
+                App Live · Site Down
             </div>
 
             <!-- Wrench icon -->
@@ -879,15 +879,16 @@
 
             <!-- Headline -->
             <h1 class="headline">
-                It'll Be Back <span class="green">Soon!</span>
+                App is <span class="green">Live!</span> Site Coming Soon
             </h1>
 
             <!-- Description -->
             <p class="description">
-                Th3-Anime Website and the Android App are currently <strong style="color:#fff;">under
-                    maintenance</strong>.
-                I'm working hard to improve your experience and will be back shortly.
-                Thank you for your patience — I really appreciate your support! 🙏
+                The <strong style="color:#fff;">Th3-Anime App is now live</strong> at
+                <a href="https://app.th3anime.me" target="_blank" rel="noopener"
+                    style="color:var(--green);font-weight:700;text-decoration:underline;">app.th3anime.me</a>!
+                🎉 The main website (<strong style="color:#fff;">th3anime.me</strong>) is still undergoing maintenance.
+                I'm working hard to get it back up. Thank you for your patience — I really appreciate the support! 🙏
             </p>
 
             <!-- Down cards -->
@@ -906,18 +907,18 @@
                     </div>
                 </div>
 
-                <div class="down-card" role="listitem">
-                    <div class="down-card-icon">
-                        <i class="ri-android-fill"></i>
+                <a href="https://app.th3anime.me" target="_blank" rel="noopener" class="down-card" role="listitem" style="text-decoration:none;">
+                    <div class="down-card-icon" style="background:rgba(6,193,73,0.12);border-color:rgba(6,193,73,0.35);">
+                        <i class="ri-android-fill" style="color:var(--green);"></i>
                     </div>
                     <div class="down-card-text">
                         <div class="down-card-title">
                             Th3-Anime App
-                            <span class="down-tag">⚠ Down</span>
+                            <span class="down-tag" style="background:rgba(6,193,73,0.12);border-color:rgba(6,193,73,0.3);color:#06C149;">✓ Live</span>
                         </div>
-                        <div class="down-card-sub">app.th3anime.me</div>
+                        <div class="down-card-sub">app.th3anime.me — Click to Open ↗</div>
                     </div>
-                </div>
+                </a>
 
             </div>
 
@@ -928,11 +929,17 @@
                     aria-label="75% restored">
                     <div class="eta-bar"></div>
                 </div>
-                <div class="eta-text">Working on it — <span>back soon!</span> ✨</div>
+                <div class="eta-text">75% restored — <span>site back soon!</span> ✨</div>
             </div>
 
             <!-- Action buttons -->
             <div class="action-btns">
+                <a href="https://app.th3anime.me" target="_blank" rel="noopener" class="btn-discord"
+                    id="btn-open-app" aria-label="Open the Th3-Anime App"
+                    style="background:linear-gradient(135deg,#05a83f,#06C149);box-shadow:0 4px 20px rgba(6,193,73,0.35);">
+                    <i class="ri-android-fill"></i>
+                    Open the App ↗
+                </a>
                 <a href="https://discord.gg/Kzf3pMBQx2" target="_blank" rel="noopener" class="btn-discord"
                     id="btn-join-discord" aria-label="Join Th3-Anime Discord server for updates">
                     <i class="ri-discord-fill"></i>
@@ -953,20 +960,21 @@
             <div class="info-cards" role="list" aria-label="During maintenance information">
 
                 <div class="info-card" role="listitem">
-                    <i class="ri-discord-fill info-card-icon" aria-hidden="true"></i>
-                    <div class="info-card-title">Stay Updated</div>
+                    <i class="ri-android-fill info-card-icon" aria-hidden="true" style="color:var(--green);"></i>
+                    <div class="info-card-title">App is Live! 🎉</div>
                     <div class="info-card-body">
-                        Join the Discord server to get real-time maintenance updates and be the first to know when I'm
-                        back online.
+                        The Th3-Anime App is back online. Head to
+                        <a href="https://app.th3anime.me" target="_blank" rel="noopener"
+                            style="color:var(--green);font-weight:600;">app.th3anime.me</a>
+                        and start watching now!
                     </div>
                 </div>
 
                 <div class="info-card" role="listitem">
-                    <i class="ri-shield-check-fill info-card-icon" aria-hidden="true"></i>
-                    <div class="info-card-title">I'm On It</div>
+                    <i class="ri-discord-fill info-card-icon" aria-hidden="true"></i>
+                    <div class="info-card-title">Stay Updated</div>
                     <div class="info-card-body">
-                        I'm actively working to restore all services as quickly as possible. Your data is
-                        completely safe.
+                        Join the Discord server for real-time updates on the website restoration and be first to know when everything is back.
                     </div>
                 </div>
 
@@ -974,8 +982,7 @@
                     <i class="ri-hand-heart-line info-card-icon" aria-hidden="true"></i>
                     <div class="info-card-title">Support Me</div>
                     <div class="info-card-body">
-                        Love the project? Consider supporting Th3-Anime to help me keep the servers running and the
-                        app updated.
+                        Love the project? Consider supporting Th3-Anime to help keep the servers running and the app updated.
                     </div>
                 </div>
 
